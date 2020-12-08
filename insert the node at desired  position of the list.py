@@ -1,4 +1,3 @@
-#insert the node at desired  position of the list
 class Node:
     def _init_(self, dataval=None):
         self.dataval = dataval
@@ -7,8 +6,7 @@ class Node:
 class SLinkedList:
     def _init_(self):
         self.headval = None
-
-# Function to add node
+        
     def Inbetween(self,middle_node,newdata):
         if middle_node is None:
             print("The mentioned node is absent")
